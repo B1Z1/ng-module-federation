@@ -21,7 +21,8 @@
       "@ng-module-federation/shared-components": [
         "libs/shared-components/src/index.ts"
       ],
-      "@ng-module-federation/shop-main": ["libs/shop-main/src/index.ts"]
+      "@ng-module-federation/shop-main": ["libs/shop-main/src/index.ts"],
+      "@ng-module-federation/test": ["libs/test/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

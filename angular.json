@@ -12,6 +12,7 @@
     "shared-components": "libs/shared-components",
     "shop": "apps/shop",
     "shop-e2e": "apps/shop-e2e",
-    "shop-main": "libs/shop-main"
+    "shop-main": "libs/shop-main",
+    "test": "libs/test"
   }
 }

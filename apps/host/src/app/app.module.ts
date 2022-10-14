@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
+import { TestModule } from '@ng-module-federation/test';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
+    TestModule.forRoot(),
     RouterModule.forRoot(
       [
         {
@@ -32,4 +34,5 @@ import { RouterModule } from '@angular/router';
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+}
